@@ -16,7 +16,7 @@ class Snowflake{
   }
   void updateSf(){
     for(int i=0;i<nF;i++){
-     if((snowArray[i].getX())>1000){
+     if((snowArray[i].getX())>1000||snowArray[i].getY()>800){
        snowArray[i].reset();
      }
       snowArray[i].show();
